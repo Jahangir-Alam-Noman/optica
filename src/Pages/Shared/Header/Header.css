@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.header_bgColor{
+    background-color: #03123b;
+     font-family: 'Roboto Slab', serif;
+}
+.navbar-nav a{
+  color: #fffcfa;
+}
+.navbar-nav a:hover{
+  color: #06be98;
+}
+.anchor a{
+    transition: 0.3s ease;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 0;
+    margin: 0 22px;
+  }  
+  .anchor a:hover {
+    border-bottom: 3px solid #06be98;
+    padding: 6px 0; 
+  }

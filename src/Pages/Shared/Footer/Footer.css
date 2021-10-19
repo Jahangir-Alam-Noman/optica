@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.bg_color{
+    background-color: #050b2b;
+    color: #fffcfa;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+.footer_icon .fa{
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+}
+.footer_icon .fa:hover{
+    color:#39a598;
+}
+.explore h3{
+  color: #2dc0ba;
+}
+.explore a {
+    text-decoration: none;
+   color: #fffcfa;
+}
+.explore a:hover{
+    color:#39a598;
+    margin-left: 10px;
+    transition: 1s linear;
+}
+

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.services{
+    font-family: 'Roboto Slab', serif;
+}
+.services h4{
+    color: #2dc0ba;
+}
+.services h4{
+	text-align: center;
+}
+.services h4::after {
+    display: block;
+    height: 3px;
+    font-weight: bold;
+    background-color: #ff993a;
+    content: " ";
+    width: 60px;
+    margin: .9rem auto 1.5rem auto;
+}
