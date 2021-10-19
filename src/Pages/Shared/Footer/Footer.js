@@ -28,7 +28,7 @@ const Footer = () => {
                             <p> <NavLink to="/about">About</NavLink></p>
                             <p> <NavLink to="/services">Services</NavLink></p>
                             <p> <NavLink to="/about">Departments</NavLink></p>
-                            <p> <NavLink to="/about">Contact</NavLink></p>
+                            <p> <NavLink to="/home">Home</NavLink></p>
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3  ">
@@ -36,7 +36,7 @@ const Footer = () => {
                             <h3 className="pb-3">Explore</h3>
                             <p> <NavLink to="/home">Blog</NavLink></p>
                             <p> <NavLink to="/about">Appointment</NavLink></p>
-                            <p> <NavLink to="/register">Register</NavLink></p>
+                            <p> <NavLink to="/login">Register</NavLink></p>
                             <p> <NavLink to="/login">Login</NavLink></p>
                             <p> <NavLink to="/login">Support</NavLink></p>
 

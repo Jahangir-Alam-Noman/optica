@@ -69,7 +69,9 @@ const About = () => {
                         </div>
 
                     </div>
-                    <button type="button" className="btn btn-info mt-3 p-2 text-white">More About Us</button>
+                    <Link to="/home">
+                        <button type="button" className="btn btn-info mt-3 p-2 text-white">More About Us</button>
+                    </Link>
 
 
                 </div>
