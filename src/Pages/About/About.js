@@ -6,7 +6,7 @@ import about from '../../images/item_3.jpg';
 
 const About = () => {
     return (
-        <div className="details">
+        <div className="details about_us">
             <div className="row aboutOverlay ">
                 <h2 className="">We Are Caring Your Eye Health
                 </h2>
@@ -15,7 +15,7 @@ const About = () => {
                 <nav className=" about" aria-label="breadcrumb ">
                     <div className="container px-5 py-5">
                         <h3 className="text-start">About Us</h3>
-                        <ol className="breadcrumb">
+                        <ol className="breadcrumb p-1">
 
                             <Link to="/home" className="breadcrumb-item ">Home</Link>
                             <Link to="/about" className="breadcrumb-item active" aria-current="page">About Us</Link>
