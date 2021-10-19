@@ -1,0 +1,47 @@
+
+.aboutOverlay {
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("../../images//banner13.jfif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 450px;
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 150px;
+    overflow-y: hidden;
+}
+.aboutOverlay h2{
+    color: #2dc0ba;
+}
+
+.about{
+    background-color:#d6dce0 ;
+    height: 180px;
+}
+.about a{
+    text-decoration: none;
+    color: #2dc0ba;
+}
+.about_color{
+color:#385273 ;
+}
+.about_icon ,.choose_us{
+    font-size: 60px;
+    color: #ff993a;
+}
+.why_us{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.about_text{
+    color: #2dc0ba;
+}
+.fa{
+    font-size: 25px;
+    color: #2dc0ba;
+
+}
+.choose_headline{
+    color: #2dc0ba;
+
+}
