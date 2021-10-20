@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="row py-4">
                     <div className="col-12 col-md-6 col-lg-3 text-start">
                         <img src={logo} className="img-fluid py-2" alt="" />
-                        <p>Senior Eye Surgeon For All Eye Conditions, Specializing In Cataract Treatment. Call Now. Female Senior Doctor With Over 20 Years Experience.
+                        <p>Senior Eye Surgeon For All Eye Conditions, Specializing In Cataract Treatment. Call Now. Female Senior Doctor With Over 25 Years Experience.
                         </p>
                         <div className="footer_icon">
                             <a href="https://www.facebook.com/"><i className="fa fa-facebook" aria-hidden="true"></i></a>
