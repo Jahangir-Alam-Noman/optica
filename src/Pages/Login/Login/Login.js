@@ -50,7 +50,7 @@ const Login = () => {
 
                             <div class="input-group mb-3">
                                 <button class="btn btn-outline-secondary" type="button" id="button-addon1">Password</button>
-                                <input onBlur={handlePasswordChange} type="text" id="password_id" required class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" />
+                                <input onBlur={handlePasswordChange} type="password" id="password_id" required class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" />
                             </div>
 
 

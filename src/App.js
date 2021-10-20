@@ -41,17 +41,15 @@ function App() {
               <Login></Login>
             </Route>
 
-            <Route path="/service/:serviceId">
+            <PrivateRoute path="/service/:serviceId">
               <ServiceDetails></ServiceDetails>
-            </Route>
-
-            {/* <PrivateRoute path="/service/:serviceId">
-              <ServiceDetails></ServiceDetails>
-            </PrivateRoute> */}
+            </PrivateRoute>
 
             <Route path="*">
               <NotFound></NotFound>
             </Route>
+
+
           </Switch>
           <Footer></Footer>
         </Router>
