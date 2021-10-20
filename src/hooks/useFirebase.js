@@ -1,8 +1,6 @@
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, GithubAuthProvider, signOut, onAuthStateChanged, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { useEffect, useState } from "react";
-
 import initializeAuthentication from "../Pages/Login/Firebase/firebase.init";
-
 
 initializeAuthentication();
 
@@ -13,16 +11,16 @@ const useFirebase = () => {
     const [email, setEmail] = useState(' ');
     const [password, setPassword] = useState(' ');
     const [isLogin, setIsLogin] = useState(false);
-
     const auth = getAuth();
 
+    // handle register and login process
     const handleRegistration = (e) => {
         const emailId = document.getElementById('email_id');
         const passwordId = document.getElementById('password_id');
         e.preventDefault();
         console.log(email, password);
         if (password.length < 6) {
-            setError('please password at least 6 characters long');
+            setError('Please password at least 6 characters long');
             return;
         }
         if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
@@ -73,14 +71,14 @@ const useFirebase = () => {
         setIsLogin(e.target.checked);
     }
 
-    // login end
-
+    // Google Sign In
     const signInUsingGoogle = () => {
         setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
         return signInWithPopup(auth, googleProvider);
     }
 
+    // github Sign in
     const signInUsinGithub = () => {
         const auth = getAuth();
         setIsLoading(true);
@@ -89,6 +87,7 @@ const useFirebase = () => {
 
     }
 
+    // firebase observer 
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, (user) => {
             if (user) {
@@ -101,6 +100,7 @@ const useFirebase = () => {
         return unsubscribed;
     }, [])
 
+    // logout process
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)
@@ -116,14 +116,11 @@ const useFirebase = () => {
         logOut,
         signInUsingGoogle,
         signInUsinGithub,
-
-
         handleRegistration,
         handleEmailChange,
         handlePasswordChange,
         toggleLogin,
         isLogin
-
 
     }
 

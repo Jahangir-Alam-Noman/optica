@@ -23,10 +23,6 @@ const About = () => {
                     </div>
                 </nav>
             </div>
-
-
-
-
             <div className="row container py-3 my-5 ps-5">
                 <div className="col-12 col-md-6 col-lg-6 pt-5">
                     <img src={aboutPic} alt="" className="img-fluid" />
@@ -72,11 +68,7 @@ const About = () => {
                     <Link to="/home">
                         <button type="button" className="btn btn-info mt-3 p-2 text-white">More About Us</button>
                     </Link>
-
-
                 </div>
-
-
             </div>
             <div className="container">
                 <hr />
@@ -119,14 +111,8 @@ const About = () => {
                 </div>
                 <div className="col-md-6">
                     <img src={about} alt="" className="img-fluid" />
-
-
                 </div>
             </div>
-
-
-
-
 
         </div>
     );
