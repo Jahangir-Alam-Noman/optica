@@ -6,16 +6,13 @@ This project was bootstrapped with [Create React App](https://eye-care-optical.w
 
 In the project directory, you can run:
 
-==> By this project , You will get more information about Eye Care
+●	Overview
 
-==> We have lot of services
+  ▪	Firebase authentication used for client signup/ login and login with google,github
+  
+  ▪	User can see the details of  each service by using authentication.
+  
+  ▪	Exclusive routing  is  private protected 
+  
+●	Technologies used : React.js,Firebase, React Router,React Bootstrap.
 
-==> Optica Eye Care Specialist are available
-
-==> There is a opportunity to consult with doctor and emmergency meet .
-
-==> We only Give Best Care To Your Eyes  that You Can Trust
-
-Short describe : 
-
-Your eyesight is one of your most important senses: 80% of what we perceive comes through our sense of sight. By protecting your eyes, you will reduce the odds of blindness and vision loss while also staying on top of any developing eye diseases such as cataracts and glaucoma.
